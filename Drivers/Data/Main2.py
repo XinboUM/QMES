@@ -10,7 +10,7 @@ from qiskit import *
 EPSILON=1e-10
 shots=4096
 
-IBMQ.enable_account('ef6c3f5e1c061896c09cdec44baa1466f87102f0157863db111afa80dff424c5b6c41e50572879c4445e7f15b3df5b2d896b0cd8ef350432d3fa60206c985c27')
+IBMQ.enable_account('')
 provider=IBMQ.get_provider(hub='ibm-q-research-2', group='uni-manitoba-1')
 
 back1 = qk.BasicAer.get_backend('statevector_simulator')
